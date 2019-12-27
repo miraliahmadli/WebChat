@@ -76,5 +76,6 @@ $ source bin/activate
         ```
         python manage.py runserver
         ```
+        
     Then go to the 0.0.0.0:8000/admin and sign in by using previously created superusers (2 different browsers or 1 in incognito mode, 1 in normal mode)  
     After signing in, with username1 go to the 0.0.0.0:8000/messages/username2 and vice versa for the other user.
