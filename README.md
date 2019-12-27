@@ -1,9 +1,5 @@
 # Rapid-ChatXChannels
-A rapid fire tutorial and introduction of Django Channels. To get more in-depth check out the full course https://kirr.co/badl8e
-
-
-YouTube Video: __coming soon__
-
+A rapid fire tutorial and introduction of Django Channels.
 
 
 ### Recommended Start
@@ -75,3 +71,10 @@ $ source bin/activate
 
         ```
         **Close Redis** with `control` + `c` to quit
+        
+ ### Running app  
+        ```
+        python manage.py runserver
+        ```
+    Then go to the 0.0.0.0:8000/admin and sign in by using previously created superusers (2 different browsers or 1 in incognito mode, 1 in normal mode)  
+    After signing in, with username1 go to the 0.0.0.0:8000/messages/username2 and vice versa for the other user.
